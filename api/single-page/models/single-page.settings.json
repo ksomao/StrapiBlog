@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "single_pages",
+  "info": {
+    "name": "SinglePage"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    },
+    "page_description": {
+      "type": "richtext"
+    }
+  }
+}
